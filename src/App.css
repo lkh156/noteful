@@ -1,0 +1,90 @@
+body {
+  background-color: #274141;
+  background-image: url("https://data.whicdn.com/images/331258426/original.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+footer {
+  background-color: #1c3030;
+  text-align: center;
+  color: white;
+  min-height: 5vh;
+}
+
+html,
+body,
+#root,
+.App {
+  margin: 0;
+  height: auto;
+}
+
+html, body, .App {
+  min-height: 95vh;
+}
+
+.App {
+  text-align: center;
+  color: white;
+  display: flex;
+  background-color: #274141e5;
+}
+
+.group {
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 85%;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover,
+h1:hover {
+  color: #ff0095;
+}
+
+ul {
+  list-style-type: none;
+  padding: 1%;
+}
+
+li {
+  list-style-type: none;
+  border: none;
+  background-color: #1c3030;
+  padding: 15px;
+  margin: 10px;
+}
+
+button {
+  border: none;
+  padding: 5px 15px;
+}
+
+button:hover {
+  background-color: #ff8ed0;
+}
+
+.banner {
+  padding: 15px 0 10px 0;
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 30px;
+  background-color: #3f1a33;
+}
+
+@media all and (min-width:1000px) {
+  .group {
+    flex-direction: row;
+    margin: 0px auto;
+  }
+}
