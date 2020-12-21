@@ -1,3 +1,3 @@
 export default {
-  API_ENDPOINT: "https://localhost:9090",
+  API_ENDPOINT: "https://lk-noteful.herokuapp.com/",
 };
